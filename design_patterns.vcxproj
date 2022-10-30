@@ -127,10 +127,12 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="ios_system.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="operating_system.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="ios_system.h" />
     <ClInclude Include="operating system.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

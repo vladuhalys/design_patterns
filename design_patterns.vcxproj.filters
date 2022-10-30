@@ -16,6 +16,12 @@
     <Filter Include="ConcreteCreator">
       <UniqueIdentifier>{f9eee52d-075d-4064-a692-2be8cb9a5863}</UniqueIdentifier>
     </Filter>
+    <Filter Include="ConcreteProduct\IOS">
+      <UniqueIdentifier>{fccc29bb-2b17-4971-9a92-d6a01179688b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ConcreteProduct\Android">
+      <UniqueIdentifier>{a30cc7f5-49b1-4805-8a81-a34e357db289}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -24,10 +30,16 @@
     <ClCompile Include="operating_system.cpp">
       <Filter>Product</Filter>
     </ClCompile>
+    <ClCompile Include="ios_system.cpp">
+      <Filter>ConcreteProduct\IOS</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="operating system.h">
       <Filter>Product</Filter>
+    </ClInclude>
+    <ClInclude Include="ios_system.h">
+      <Filter>ConcreteProduct\IOS</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

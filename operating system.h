@@ -11,6 +11,6 @@ public:
 	OS();
 	OS(string Name, string Version, string Creator);
 	
-	virtual std::string Operation() const = 0;
+	virtual std::string Operation() = 0;
 	virtual ~OS() {}
 };
