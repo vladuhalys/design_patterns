@@ -33,24 +33,6 @@
     <ClCompile Include="main.cpp">
       <Filter>main</Filter>
     </ClCompile>
-    <ClCompile Include="operating_system.cpp">
-      <Filter>Product</Filter>
-    </ClCompile>
-    <ClCompile Include="ios_system.cpp">
-      <Filter>ConcreteProduct\IOS</Filter>
-    </ClCompile>
-    <ClCompile Include="android_system.cpp">
-      <Filter>ConcreteProduct\Android</Filter>
-    </ClCompile>
-    <ClCompile Include="phone.cpp">
-      <Filter>Creator</Filter>
-    </ClCompile>
-    <ClCompile Include="iphone.cpp">
-      <Filter>ConcreteCreator\Iphone</Filter>
-    </ClCompile>
-    <ClCompile Include="samsung.cpp">
-      <Filter>ConcreteCreator\Samsung</Filter>
-    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="operating_system.h">

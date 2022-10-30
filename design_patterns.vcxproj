@@ -127,13 +127,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="android_system.cpp" />
-    <ClCompile Include="ios_system.cpp" />
-    <ClCompile Include="iphone.cpp" />
     <ClCompile Include="main.cpp" />
-    <ClCompile Include="operating_system.cpp" />
-    <ClCompile Include="phone.cpp" />
-    <ClCompile Include="samsung.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="android_system.h" />
