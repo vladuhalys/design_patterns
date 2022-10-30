@@ -129,15 +129,19 @@
   <ItemGroup>
     <ClCompile Include="android_system.cpp" />
     <ClCompile Include="ios_system.cpp" />
+    <ClCompile Include="iphone.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="operating_system.cpp" />
     <ClCompile Include="phone.cpp" />
+    <ClCompile Include="samsung.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="android_system.h" />
     <ClInclude Include="ios_system.h" />
+    <ClInclude Include="iphone.h" />
     <ClInclude Include="operating_system.h" />
     <ClInclude Include="phone.h" />
+    <ClInclude Include="samsung.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
