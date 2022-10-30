@@ -36,6 +36,9 @@
     <ClCompile Include="android_system.cpp">
       <Filter>ConcreteProduct\Android</Filter>
     </ClCompile>
+    <ClCompile Include="phone.cpp">
+      <Filter>Creator</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="operating_system.h">
@@ -46,6 +49,9 @@
     </ClInclude>
     <ClInclude Include="android_system.h">
       <Filter>ConcreteProduct\Android</Filter>
+    </ClInclude>
+    <ClInclude Include="phone.h">
+      <Filter>Creator</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
