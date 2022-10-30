@@ -4,10 +4,21 @@
     <Filter Include="main">
       <UniqueIdentifier>{93f21b7e-2ff5-4be3-88df-a9ccffd3748d}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Singlton">
+      <UniqueIdentifier>{bd8a834f-a57c-4d67-b55a-f9f94ec5c038}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
       <Filter>main</Filter>
     </ClCompile>
+    <ClCompile Include="singlton.cpp">
+      <Filter>Singlton</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="singlton.h">
+      <Filter>Singlton</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
