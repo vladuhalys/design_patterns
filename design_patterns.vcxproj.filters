@@ -33,13 +33,19 @@
     <ClCompile Include="ios_system.cpp">
       <Filter>ConcreteProduct\IOS</Filter>
     </ClCompile>
+    <ClCompile Include="android_system.cpp">
+      <Filter>ConcreteProduct\Android</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="operating system.h">
+    <ClInclude Include="operating_system.h">
       <Filter>Product</Filter>
     </ClInclude>
     <ClInclude Include="ios_system.h">
       <Filter>ConcreteProduct\IOS</Filter>
+    </ClInclude>
+    <ClInclude Include="android_system.h">
+      <Filter>ConcreteProduct\Android</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
