@@ -4,10 +4,30 @@
     <Filter Include="main">
       <UniqueIdentifier>{93f21b7e-2ff5-4be3-88df-a9ccffd3748d}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Product">
+      <UniqueIdentifier>{9bb20428-8642-44db-8963-0810bb80885d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Creator">
+      <UniqueIdentifier>{60136183-8227-4699-af01-117eabc7488f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ConcreteProduct">
+      <UniqueIdentifier>{00a06b94-e892-45b7-a5a1-36989047eeae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ConcreteCreator">
+      <UniqueIdentifier>{f9eee52d-075d-4064-a692-2be8cb9a5863}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
       <Filter>main</Filter>
     </ClCompile>
+    <ClCompile Include="operating_system.cpp">
+      <Filter>Product</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="operating system.h">
+      <Filter>Product</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
