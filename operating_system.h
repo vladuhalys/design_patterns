@@ -21,6 +21,7 @@ public:
 		this->Creator = std::move(Creator);
 	}
 	virtual ~OS(){}
+
 	
 	virtual string Operation() const = 0;
 

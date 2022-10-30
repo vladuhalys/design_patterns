@@ -34,6 +34,7 @@ public:
         return result;
     }
     string StratPhone(const string &Name, const string &Version,const string &Creator) const {
+
         OS* os = this->FactoryMethod(Name, Version, Creator);
         string result = "phone " + Company + " "
             + Model + " : " + os->Operation();
